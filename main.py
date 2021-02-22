@@ -5,7 +5,7 @@ import re
 
 app = Flask(__name__)
 
-ESURL = 'http://localhost:9200/netflix/'
+ESURL = 'https://netflixsearch-4164337430.us-east-1.bonsaisearch.net/netflix/'
 
 #####################
 
