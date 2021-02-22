@@ -1,10 +1,9 @@
 from flask import *
 import requests
 import json
-import os ,re
+import re
 
 app = Flask(__name__)
-app.secret_key = os.urandom(24)
 
 ESURL = 'http://localhost:9200/netflix/'
 
